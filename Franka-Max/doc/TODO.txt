@@ -1,0 +1,13 @@
+Here is an approximate plan of what should be done as a first step towards Franka Max:
+1. Define all objects on the workspace and place/mark them (Assume position is fixed)
+2. Create a task in WEB API to pick up part and deliver it to a specific place in air, wait for user confirmation, release
+3. In python, write a script that releases brakes, goes to home pos, starts task above.
+4. Create all needed pick/place tasks (4-5 in total?)
+5. In Python, add those 4-5 tasks and make a menu what to do 
+6. Add various intentinputs from slides and randomize what is asked.
+7. Work on Return Status
+8. Work on stop/resume motions.
+9. Next?
+
+
+find a way to read robot's status, need to know if its busy doing something or idle
